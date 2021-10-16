@@ -1,0 +1,170 @@
+// HOME PAGE
+.home-page {
+}
+
+// HEADER
+.header {
+  background-color: $theme;
+  height: 208px;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 136px;
+  .welcome {
+    display: flex;
+    align-items: center;
+    .head {
+      color: $white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .logo {
+      margin-left: 6px;
+    }
+  }
+  .account {
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 14px;
+    color: $white;
+    opacity: 0.8;
+    margin: 10px 0 8px;
+  }
+
+  .card-container {
+    width: 344px;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    white-space: nowrap;
+    transform: translate(-50%);
+    padding: 0 16px 26px 0;
+    overflow-x: auto;
+    .card {
+      width: 292px;
+      height: 212px;
+      display: inline-block;
+      border-radius: 10px;
+      background: #fff;
+      margin-left: 16px;
+      box-shadow: 0 10px 20px 0 #0000001a;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.main-div-recharge {
+  position: relative;
+  height: 202px;
+  width: 360px;
+  background-color: #ffffff;
+  .recharge-text {
+    position: absolute;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    position: absolute;
+    left: 16px;
+    color: #888888;
+    text-align: center;
+    line-height: 14px;
+  }
+  .rectangle-line {
+    position: absolute;
+    height: 1px;
+    left: 0%;
+    right: 0%;
+    top: 32px;
+    background-color: $border;
+    border-radius: 0px 0px 3px 3px;
+  }
+  .recharge-icons {
+    position: absolute;
+    width: 314px;
+    height: 140px;
+    top: 24%;
+    left: 6%;
+    right: 7%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .recharge-icon-wrapper {
+      height: 58px;
+      width: 44px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 5px 10px;
+      .recharge-icon {
+        height: 40px;
+        width: 40px;
+      }
+      .recharge-txt {
+        font-family: Roboto;
+        font-size: 12px;
+        color: #888888;
+      }
+    }
+  }
+}
+
+.main-div-partner {
+  position: relative;
+  height: 142px;
+  width: 360px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  .partner-text {
+    position: absolute;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    position: absolute;
+    left: 16px;
+    color: #888888;
+    text-align: center;
+    line-height: 14px;
+  }
+  .partner-rectangle-line {
+    position: absolute;
+    height: 1px;
+    left: 0%;
+    right: 0%;
+    top: 32px;
+    background-color: $border;
+    border-radius: 0px 0px 3px 3px;
+  }
+  .logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-41%, -34%);
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    .logo-card {
+      width: 32px;
+      height: 75px;
+      padding: 30px 20px;
+      margin-right: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      .logo-image {
+        height: 32px;
+        width: 32px;
+      }
+      .logo-text {
+        color: #888888;
+        font-family: Roboto;
+        font-size: 12px;
+      }
+    }
+  }
+}
